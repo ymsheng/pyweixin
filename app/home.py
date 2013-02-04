@@ -2,7 +2,6 @@
 import os.path
 import re
 import tornado.web
-import urllib
 
 class MainHandler(tornado.web.RequestHandler):
      def get(self):
